@@ -28,19 +28,22 @@ I practiced the difference between deleting empty directories and directories wi
 * `rmdir`: Applied to remove completely empty folders.
 * `rm -r`: Used the recursive flag (`-r`) to delete directories containing files, understanding the risk and power of this command in production environments3.
 
----
-# ---- STEP 1: NAVIGATION & LOCATION ----
-# Checking where I am and what's inside the folder
+```text
+# ---- STEP 1: ENVIRONMENT SETUP ----
+# Checking current user and system hostname
+lobito@kali:~$ whoami
+lobito@kali:~$ hostname
 lobito@kali:~$ pwd
-/home/lobito
 
-lobito@kali:~$ ls
-Desktop  Documents  Downloads  Music  Pictures  Videos
+# Checking current network configuration and IP address
+lobito@kali:~$ ip a
+
 
 # ---- STEP 2: FILE MANIPULATION ----
 # Creating a new lab folder and moving inside
 lobito@kali:~$ mkdir Security_Lab
 lobito@kali:~$ cd Security_Lab
+lobito@kali~/Security_Lab$ pwd
 
 # Creating a text report and verifying it exists
 lobito@kali~/Security_Lab$ touch report.txt
