@@ -37,7 +37,6 @@ lobito@kali:~$ pwd
 lobito@kali:~$ ls
 Desktop  Documents  Downloads  Music  Pictures  Videos
 
-
 # ---- STEP 2: FILE MANIPULATION ----
 # Creating a new lab folder and moving inside
 lobito@kali:~$ mkdir Security_Lab
@@ -66,8 +65,3 @@ rmdir: failed to remove 'Practice': Directory not empty
 # CORRECT COMMAND: Using recursive delete to remove the folder and its content safely
 lobito@kali:~$ rm -r Practice
 lobito@kali:~$
-
-## Key Takeaways (Conclusion)
-* **The Importance of CLI:** In cybersecurity, most servers and tools lack a GUI; the terminal is the primary tool.
-* **Precision:** A typo with `rm -r` can destroy critical data, so I learned to double-check my location with `pwd` before deleting anything.
-*
